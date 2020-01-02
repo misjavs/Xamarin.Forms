@@ -68,7 +68,7 @@ namespace Xamarin.Forms.Platform.MacOS
 			lineHeight = span.LineHeight >= 0 ? span.LineHeight : lineHeight;
 			if (lineHeight >= 0)
 			{
-				style.LineHeightMultiple = new nfloat(lineHeight);
+				style.LineSpacing = new nfloat(lineHeight);
 			}
 
 			switch (textAlignment)
